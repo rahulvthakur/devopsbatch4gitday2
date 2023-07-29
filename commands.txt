@@ -5,4 +5,7 @@ git commit -m
 git rm --cache
 git log
 git restore
-
+git log --online
+git log --online --pretty
+git config --global user.name ""
+git config --global user.email ""
